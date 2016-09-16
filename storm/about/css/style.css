@@ -1,0 +1,21 @@
+body {
+    background-color: whitesmoke;
+}
+.menu {
+    box-shadow: 10px 10px 5px #888888;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 10px;
+    width: 600px;
+    height: 600px;
+    background-color: aqua;
+    top: 0px;
+}
+
+#title {
+    background-image: url(../images/aboutpage.png);
+    width: 600px;
+    margin-left: 150px;
+}

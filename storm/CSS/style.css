@@ -1,0 +1,52 @@
+@font-face {
+			font-family: "avenir";
+			src: url("font/avenirnext.ttc");	
+		
+			}
+
+body {
+    background-color: whitesmoke;
+}
+
+body:hover {
+    background-color: #FF194C;
+    
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: avenir;
+    line-height: 10%;
+}
+
+.menu {
+    box-shadow: 10px 10px 5px #888888;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 10px;
+    width: 150px;
+    height: 600px;
+    top: 0px;
+}
+
+#title {
+    background-image: url(../images/title.png);
+    width: 200px;
+    margin-left: 150px;
+}
+
+#about {
+     background-image: url(../images/about.png);
+}
+
+#assignments {
+     background-image: url(../images/assign.png);
+}
+
+#misc {
+     background-image: url(../images/misc.png);
+}
