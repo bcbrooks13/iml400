@@ -1,52 +1,172 @@
 @font-face {
-			font-family: "avenir";
-			src: url("font/avenirnext.ttc");	
+			
+            font-family: "quicksand";
+			src: url("../font/quicksand/Quicksand_Bold.otf");
+    
+            	
+            font-family: "avenir";
+			src: url("../font/avenirnext.ttc");
+		
 		
 			}
 
 body {
     background-color: whitesmoke;
-}
-
-body:hover {
-    background-color: #FF194C;
     
 }
 
-p {
+a {
     color: white;
-    font-size: 20px;
-    text-align: center;
-    font-family: avenir;
-    line-height: 10%;
+    text-decoration: none;
+    z-index: 500;
 }
+
+
+h1 {
+    font-size: 100px;
+    color: white;
+    font-family: "quicksand";
+    line-height: 57px;
+    margin-bottom: 40px;
+    color: #E500B4;
+    opacity: 0.6;
+}
+
+h2 {
+    color:white;
+    font-family: "avenir";
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+    overflow: visible;
+
+    
+}
+
+h2:hover{
+    color: #FF194C;
+}
+
+#subtitle:hover > #color {
+    width: 150px;
+   height: 50px;
+   background: white;
+   position: relative;
+    margin-left: 245px;
+    margin-top: -25px;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+   background-image: url(../images/sigcolor.jpg);
+    z-index: 100;
+   
+	
+}
+
+
+#subtitle:hover > #color:before {
+    content:"";
+   position: absolute;
+   right: 100%;
+   top: 12px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid white;
+   border-bottom: 13px solid transparent;
+    z-index: 100;
+
+	
+}
+
+
+
+p {
+    font-family: "avenir";
+    text-align: center;
+    padding: auto;
+    font-size: 15px;
+    align-content: center;
+    color: white;
+    opacity: 1;
+    
+}
+
+
+
+#container {
+    height: 900px;
+    width: 300px;
+    background: aqua;
+    align-content: center;
+    position: relative;
+    margin: left;
+    top: -35px;
+    z-index: -10;
+    left: 10px;
+    
+}
+
 
 .menu {
-    box-shadow: 10px 10px 5px #888888;
-    align-items: center;
     position: relative;
     display: inline-block;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-left: 10px;
-    width: 150px;
-    height: 600px;
+    width: 305px;
+    height: 50px;
     top: 0px;
+   
+    
 }
 
-#title {
-    background-image: url(../images/title.png);
-    width: 200px;
-    margin-left: 150px;
+
+
+
+
+.titles {
+    font-family: "avenir";
+    text-align: center;
+    padding: auto;
+    font-size: 15px;
+    align-content: center;
+    color: white;
+    opacity: 100;
+    z-index: 100;
+    
 }
+
+
 
 #about {
-     background-image: url(../images/about.png);
+ background-color: #FF194C;
 }
 
+#about: hover {
+    background-color: orange;
+}
+
+
+
 #assignments {
-     background-image: url(../images/assign.png);
+    background-color: #CC28C1;
+
 }
 
 #misc {
-     background-image: url(../images/misc.png);
+    background-color: blueviolet;
+
+}
+
+
+#box {
+    align-content: center;
+    margin: auto;
+    height: 900px;
+    width: 600px;
+    background-color: yellow;
+    position: absolute;
+    top: 32px;
+    left: 340px;
+    z-index: -50;
 }
