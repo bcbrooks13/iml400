@@ -22,7 +22,7 @@ a {
 }
 
 
-h1 {
+#name {
     font-size: 100px;
     color: white;
     font-family: "quicksand";
@@ -95,6 +95,7 @@ p {
 
 
 #container {
+    z-index: 500;
     height: 900px;
     width: 300px;
     background: aqua;
@@ -108,6 +109,7 @@ p {
 
 
 .menu {
+    z-index: 100;
     position: relative;
     display: inline-block;
     margin-top: 10px;
@@ -115,12 +117,23 @@ p {
     width: 305px;
     height: 50px;
     top: 0px;
+        -webkit-transition: width .5s ease-in-out;
+		-moz-transition: width .5s ease-in-out;
+        -ms-transition: width .5s ease-in-out;
+        -o-transition: width .5s ease-in-out;
+		transition: width .5s ease-in-out;	
+}
    
     
+.menu:hover {
+    width: 375px;
+     -webkit-transition: width .5s ease-in-out;
+		-moz-transition: width .5s ease-in-out;
+        -ms-transition: width .5s ease-in-out;
+        -o-transition: width .5s ease-in-out;
+		transition: width .5s ease-in-out;	
+
 }
-
-
-
 
 
 .titles {
@@ -167,5 +180,5 @@ p {
     position: absolute;
     top: 32px;
     left: 340px;
-    z-index: -50;
+
 }

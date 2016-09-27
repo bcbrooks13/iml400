@@ -1,44 +1,246 @@
+@font-face {
+			
+            font-family: "quicksand";
+			src: url("../font/quicksand/Quicksand_Bold.otf");
+    
+            	
+            font-family: "avenir";
+			src: url("../font/avenirnext.ttc");
+		
+		
+			}
+
 body {
     background-color: whitesmoke;
+    
 }
+
+a {
+    color: white;
+    text-decoration: none;
+    z-index: 100;
+    
+}
+
+
+#name {
+    font-size: 100px;
+    font-family: "quicksand";
+    line-height: 57px;
+    margin-bottom: 40px;
+    color: #E500B4;
+    opacity: 0.6;
+    z-index: 100;
+}
+
+h2 {
+    color:white;
+    font-family: "avenir";
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+    overflow: visible;
+
+    
+}
+
+h2:hover{
+    color: #FF194C;
+}
+
+#subtitle:hover > #color {
+    width: 150px;
+   height: 50px;
+   background: white;
+   position: relative;
+    margin-left: 245px;
+    margin-top: -25px;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+   background-image: url(../images/sigcolor.jpg);
+    z-index: 100;
+   
+	
+}
+
+
+#subtitle:hover > #color:before {
+    content:"";
+   position: absolute;
+   right: 100%;
+   top: 12px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid white;
+   border-bottom: 13px solid transparent;
+    z-index: 100;
+
+	
+}
+
+
+
+p {
+    font-family: "avenir";
+    text-align: center;
+    padding: auto;
+    font-size: 15px;
+    align-content: center;
+    color: white;
+    opacity: 1;
+    
+}
+
+
+
+#container {
+     z-index: 500;
+    height: 900px;
+    width: 300px;
+    background: aqua;
+    align-content: center;
+    position: relative;
+    margin: left;
+    top: -35px;
+    left: 10px;
+    
+}
+
+
 .menu {
-    box-shadow: 10px 10px 5px #888888;
-    align-items: center;
+    z-index: 100;
     position: relative;
     display: inline-block;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-left: 10px;
-    width: 800px;
-    height: 900px;
-    background-color: #FF194C;
+    width: 305px;
+    height: 50px;
     top: 0px;
+        -webkit-transition: width .5s ease-in-out;
+		-moz-transition: width .5s ease-in-out;
+        -ms-transition: width .5s ease-in-out;
+        -o-transition: width .5s ease-in-out;
+		transition: width .5s ease-in-out;	
+}
+   
+    
+.menu:hover {
+    width: 375px;
+     -webkit-transition: width .5s ease-in-out;
+		-moz-transition: width .5s ease-in-out;
+        -ms-transition: width .5s ease-in-out;
+        -o-transition: width .5s ease-in-out;
+		transition: width .5s ease-in-out;	
+
 }
 
-#title {
-    background-image: url(../images/aboutpage.png);
-    margin-left: 150px;
-}
 
-h1 {
-    margin-left: 50px;
+.titles {
     font-family: "avenir";
+    text-align: center;
+    padding: auto;
+    font-size: 15px;
+    align-content: center;
     color: white;
+    opacity: 100;
+    z-index: 100;
+    
 }
 
-.img {
-    width: 200px;
-    height: 300px;
-    margin-top: 20px;
-    margin-right: 50px;
-    float: right;
+
+
+#about {
+ background-color: #FF194C;
+   
+}
+
+
+
+
+#assignments {
+    background-color: #CC28C1;
+     width: 375px;
+
+}
+
+#misc {
+    background-color: blueviolet;
+
+}
+
+
+#box {
+    align-content: center;
+    margin: auto;
+    height: 860px;
+    width: 600px;
+    background-color: yellow;
+    position: absolute;
+    top: 32px;
+    left: 340px;
+    padding: 20px;
+
+}
+
+#divcontainer {
+    height: 600px;
+    width: 620px; 
+    background-color: white;
+    align-content: center;
+    margin: auto;
+    top: 0px;
+    padding: 15px;
+
+}
+
+.thumbs {
+    margin-left: 7px;
+    margin-top: 7px;
+    align-content: center;
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-color: #CC28C1;
+    border-width: 5px;
     display: inline-block;
-    background-color: aquamarine;
+    z-index: 100;
 }
 
-#animaljava {
-    margin-top: 50px;
-    margin-left: 50px;
-    float: left;
-    width: 300px;
-    height: 200px;
+#assignment1 {
+    background-image: url(../images/art1.jpg);
+    background-position: center;
+    background-size: 150px;
 }
+
+#assignment2 {
+    background-image: url(../images/art2.jpg);
+    background-position: center;
+    background-size: 150px;
+}
+
+#assignment3 {
+    background-image: url(../images/art3.jpg);
+    background-position: center;
+    background-size: 150px;
+}
+
+#assignment4 {
+    background-image: url(../images/spiritanimal.png);
+    background-position: center;
+    background-size: 50px;
+}
+
+#assignment5 {
+    background-image: url(../images/totem1.png);
+    background-position: center;
+    background-size: 50px;
+}
+
+#assignment6 {
+    background-image: url(../images/totem2.png);
+    background-position: center;
+    background-size: 50px;
+}
+
